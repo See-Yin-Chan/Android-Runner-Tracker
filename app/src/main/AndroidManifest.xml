@@ -17,6 +17,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".HomePageActivity" />
         <receiver
             android:name=".MyReceiver"
@@ -28,6 +37,7 @@
         </receiver>
 
         <activity android:name=".StatisticsActivity" />
+        <activity android:name=".RecordJourney" />
         <activity android:name=".MapsActivity" />
         <activity android:name=".EditJourney" />
         <activity android:name=".ViewSingleJourney" />
@@ -42,17 +52,6 @@
             android:name=".JourneyProvider"
             android:authorities="com.example.runnertracker.JourneyProvider"
             android:exported="true" />
-
-        <activity android:name=".RecordJourney" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
