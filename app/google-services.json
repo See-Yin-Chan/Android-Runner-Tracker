@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "88426963818",
+    "project_id": "sc2006-cycling-app",
+    "storage_bucket": "sc2006-cycling-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88426963818:android:2de31bdebcabda0cd7fb13",
+        "android_client_info": {
+          "package_name": "com.example.runnertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88426963818-kn77clalhs8pi9nhgtggu0j0qrhmmv3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUong7T4CSni86iMkX_cZbC1iyJq44p3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88426963818-kn77clalhs8pi9nhgtggu0j0qrhmmv3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88426963818:android:92eaad834fcae2b1d7fb13",
+        "android_client_info": {
+          "package_name": "seeyin.sc2006cyclingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88426963818-f959tddg0fsaofe4a9ka1j3a1gojlbv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seeyin.sc2006cyclingapp",
+            "certificate_hash": "7ae660a8e250cf9d134ea2f7b9e2e87841a3f845"
+          }
+        },
+        {
+          "client_id": "88426963818-kn77clalhs8pi9nhgtggu0j0qrhmmv3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUong7T4CSni86iMkX_cZbC1iyJq44p3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88426963818-kn77clalhs8pi9nhgtggu0j0qrhmmv3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
